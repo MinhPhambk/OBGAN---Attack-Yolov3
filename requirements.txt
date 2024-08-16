@@ -1,0 +1,92 @@
+# Usage: pip install -r requirements.txt
+
+# Base ----------------------------------------
+matplotlib>=3.2.2
+numpy>=1.18.5,<1.24.0
+opencv-python>=4.1.1
+Pillow>=7.1.2
+PyYAML>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1
+torch>=1.7.0,!=1.12.0
+torchvision>=0.8.1,!=0.13.0
+tqdm>=4.41.0
+protobuf<4.21.3
+
+# Logging -------------------------------------
+tensorboard>=2.4.1
+# wandb
+
+# Plotting ------------------------------------
+pandas>=1.1.4
+seaborn>=0.11.0
+
+# Export --------------------------------------
+# coremltools>=4.1  # CoreML export
+# onnx>=1.9.0  # ONNX export
+# onnx-simplifier>=0.3.6  # ONNX simplifier
+# scikit-learn==0.19.2  # CoreML quantization
+# tensorflow>=2.4.1  # TFLite export
+# tensorflowjs>=3.9.0  # TF.js export
+# openvino-dev  # OpenVINO export
+
+# Extras --------------------------------------
+ipython  # interactive notebook
+psutil  # system utilization
+thop  # FLOPs computation
+# albumentations>=1.0.3
+# pycocotools>=2.0  # COCO mAP
+# roboflow
+
+#--------Mnist------------------------------------------
+absl-py
+advertorch==0.2.3
+astroid==2.2.5
+certifi==2020.12.5
+cloudpickle 
+colorama==0.4.1
+cycler==0.10.0
+cytoolz==0.10.1
+dask 
+decorator==4.4.2
+flake8==3.8.4
+future==0.18.2
+grpcio==1.23.0
+imagecodecs-lite==2019.12.3
+imageio==2.8.0
+importlib-metadata==2.0.0
+isort==4.3.21
+joblib 
+kiwisolver==1.2.0
+lazy-object-proxy==1.4.2
+Markdown 
+mccabe==0.6.1
+# mkl-service 
+networkx==2.4
+olefile==0.46
+protobuf 
+pycodestyle==2.6.0
+pyflakes==2.2.0
+pylint==2.3.1
+pyparsing==2.4.7
+pyreadline==2.1
+python-dateutil==2.8.1
+PyWavelets==1.1.1
+scikit-image==0.17.2
+scikit-learn
+scipy
+setuptools
+Shapely==1.7.0
+six==1.12.0
+tifffile 
+toolz==0.10.0
+torchsummary
+tornado
+typed-ast
+Werkzeug==1.0.1
+wget==3.2
+wincertstore==0.2
+wrapt==1.11.2
+zipp==3.4.0
+scikit-image
+
